@@ -48,7 +48,7 @@ namespace FileAndroid
 			public const int chisteButton = 2130968576;
 			
 			// aapt resource value: 0x7f040003
-			public const int editText1 = 2130968579;
+			public const int chisteText = 2130968579;
 			
 			// aapt resource value: 0x7f040004
 			public const int guardarButton = 2130968580;

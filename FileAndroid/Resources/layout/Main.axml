@@ -34,7 +34,7 @@
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="168.5dp"
-        android:id="@+id/editText1" />
+        android:id="@+id/chisteText" />
     <Button
         android:text="Guardar"
         android:layout_width="match_parent"
