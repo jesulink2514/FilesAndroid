@@ -3,5 +3,42 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:paddingBottom="10pt"
+    android:paddingEnd="10pt"
+    android:paddingLeft="10pt"
+    android:paddingRight="10pt"
+    android:paddingStart="10pt"
+    android:paddingTop="10pt">
+    <Button
+        android:text="Cuentame un chiste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chisteButton"
+        android:backgroundTint="#ff8a2be2" />
+    <TextView
+        android:text="------ ó ------"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textAlignment="center"
+        android:foregroundTint="#ffffffff"
+        android:foregroundTintMode="src_over" />
+    <TextView
+        android:text="Nuevo chiste:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="168.5dp"
+        android:id="@+id/editText1" />
+    <Button
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guardarButton"
+        android:backgroundTint="#ff008000" />
 </LinearLayout>
